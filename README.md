@@ -2,7 +2,10 @@
 
 The aim of the project is to run an object detection model on Raspberry Pi to detect elephants from a camera feed. Once the elephant is detected, the image is uploaded to a cloud database. This is then retrieved by an android application automatically and an alert message is sent to the concerned authorities. Since the model is running on the Pi, there is no need to send the video to a server to process it. This greatly reduces latency, traffic and other network related bottlenecks.
 
-For the webcam, you can either use a raspberry pi cam, or use your phone's live feed as the video input. This can be done by using the IPWebCam application. In the code file, just replace the IP Address with your phone's IPWebCam address. Both the Pi and the webcam-phone should be connected to the same network (for the Pi to access the live cam feed). 
+For the webcam, you can either use a raspberry pi cam, or use your phone's live feed as the video input. This can be done by using the IPWebCam application. In the code file, just replace the IP Address with your phone's IPWebCam address. Both the Pi and the webcam-phone should be connected to the same network (for the Pi to access the live cam feed).
+<p>
+  <img src="Doc/demo2.jpeg">
+  </p>
 
 (Note: 2 separate phones need to be used here since one will be acting as a web camera. We are working on extending the app into a sticky app to ensure that it can work in the background too)
 
