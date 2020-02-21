@@ -4,7 +4,7 @@ The aim of the project is to run an object detection model on Raspberry Pi to de
 
 For the webcam, you can either use a raspberry pi cam, or use your phone's live feed as the video input. This can be done by using the IPWebCam application. In the code file, just replace the IP Address with your phone's IPWebCam address. Both the Pi and the webcam-phone should be connected to the same network (for the Pi to access the live cam feed).
 <p>
-  <img src="Doc/demo2.jpeg">
+  <img src="Doc/demo1.jpeg">
   </p>
 
 (Note: 2 separate phones need to be used here since one will be acting as a web camera. We are working on extending the app into a sticky app to ensure that it can work in the background too)
