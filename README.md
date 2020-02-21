@@ -13,5 +13,8 @@ After the library has been built, copy the Code + SSD_MobileNet folder into the 
 Initialize the IPWebCam in the first phone and run the code on Pi.
 
 When the Detecto App (APK name is different from the App name) is opened, click the "Detect" button and the app will start to periodically check the database. This phone has no restrictions of being in the same network as that of the Pi and WebCam.
+<p>
+  <img src="Doc/demo.jpeg">
+  </p>
 
 Once the image is detected, it is encoded and uploaded to the cloud DB from which the app can now retreive and display the image. Additionally, it will also send a message to the concerned authorities (since this is a prototype, the number was hardcoded).
